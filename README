@@ -18,11 +18,12 @@ Go into your app/config/config.php file and in the
 always_load=>packages array add in 'social'.
 
 That's it, you're done. You can now access either
-the Twitter of Facebook classes by doing the
+the Twitter, Facebook or Google classes by doing the
 following:
 
 \Social\Facebook::instance()->getUser();
 \Social\Twitter::instance()->logged_in();
+\Social\Google::instance()->getClientApi()->getService('Calendar');
 
 NOTE: ANY calls made to the Facebook API should
 always be wrapped in a try(){}catch(){} block
