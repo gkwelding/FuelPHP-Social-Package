@@ -2,7 +2,7 @@
 
 namespace Social;
 
-require_once APPPATH.'vendor'.DS.'Google'.DS.'src'.DS.'apiClient.php';
+require_once PKGPATH.'social'.DS.'vendor'.DS.'Google'.DS.'src'.DS.'apiClient.php';
 
 class Google {
 

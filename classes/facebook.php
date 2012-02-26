@@ -2,7 +2,7 @@
 
 namespace Social;
 
-require_once APPPATH.'vendor'.DS.'Facebook'.DS.'src'.DS.'facebook.php';
+require_once PKGPATH.'social'.DS.'vendor'.DS.'Facebook'.DS.'src'.DS.'facebook.php';
 
 class Facebook {
 
