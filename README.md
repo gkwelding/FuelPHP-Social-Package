@@ -33,4 +33,4 @@ Google: `\Social\Google::instance()->getClientApi()->getService('Calendar');`
 Copyright
 ----------
 
-Work here is belongs to <a href="http://www.in-the-attic.co.uk">Garry Welding</a>.
+Work here is relesed under Phil Sturgeons DBAD license. http://philsturgeon.co.uk/code/dbad-license. Just give me some goddam credit if you use it and don't be a dick.
