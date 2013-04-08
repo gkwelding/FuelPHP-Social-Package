@@ -9,7 +9,7 @@ Installation
 
 Clone this repo in `fuel/packages` with:
 
-`git clone git://github.com/gkwelding/FuelPHP-Social-Package.git social`
+`git clone --recursive git://github.com/gkwelding/FuelPHP-Social-Package.git social`
 
 And add `social` to always_load array in `app/config/config.php`.
 
